@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 20px 40px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.error-message {
+  margin-top: 15px;
+  color: red;
+}
+
+@media (max-width: 550px) {
+  body {
+    padding: 10px 20px;
+  }
+}

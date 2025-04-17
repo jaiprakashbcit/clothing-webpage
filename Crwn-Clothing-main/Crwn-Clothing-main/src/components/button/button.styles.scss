@@ -1,0 +1,73 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  padding: 1em 2em;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: 'Open Sans Condensed';
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background-color: black;
+  color: white;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(36, 36, 36);
+    border: 1px solid black;
+    transform: scale(1.01);
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  &.google-sign-in {
+    background-color: #4285f4;
+    color: white;
+
+    &:hover {
+      background-color: #357ae8;
+      border: 1px solid transparent;
+    }
+  }
+
+  &.white {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  &.inverted {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  &.warning {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+
+    &:hover {
+      background-color: red;
+      color: white;
+    }
+  }
+}
+
+// @media (hover: none) {
+//   .button-container {
+//     background-color: black;
+//     color: white;
+
+//     &.inverted {
+//       background-color: white;
+//       color: black;
+//     }
+//   }
+// }
